@@ -1,0 +1,14 @@
+md5: ad22253a8e65dc4cedca3c4ab9aaaa6d
+cmd: ./scripts/exec-notebook.sh notebooks/compute_mean.py
+wdir: ..
+deps:
+- md5: 08bf9e1e5fe768a39f6a3bb6452f913d
+  path: notebooks/compute_mean.py
+- md5: 77b4675a90bb29772db8831fcfe4f86e
+  path: interim/virginica.csv
+outs:
+- md5: e30fb64f0b1507caab7718b76be46324
+  path: outputs/mean_data.csv
+  cache: true
+  metric: false
+  persist: false

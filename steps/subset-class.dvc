@@ -1,0 +1,14 @@
+md5: 149a13abcdc7355ab6e91ca738681d5c
+cmd: ./scripts/exec-notebook.sh notebooks/subset_class.py
+wdir: ..
+deps:
+- md5: 7fb667abf8625a52b76471f86eca7ed5
+  path: notebooks/subset_class.py
+- md5: 42615765a885ddf54427f12c34a0a070
+  path: data/iris.data
+outs:
+- md5: 77b4675a90bb29772db8831fcfe4f86e
+  path: interim/virginica.csv
+  cache: true
+  metric: false
+  persist: false
